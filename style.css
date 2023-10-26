@@ -1,0 +1,43 @@
+body{
+    font: normal 15pt Arial;
+    /* background-image: url(fundo.jpg); */
+    background-size: cover;
+    background-position: center; 
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+div#foto{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#foto img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
